@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float');
 body {
-    background-color: rgb(185, 81, 81);
+    background-color: rgb(38, 0, 83);
     color: #ffffff;
     font-family: 'Rancho', serif;
     padding: 0;
     margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    align-items: center;
 }
 
 section{
@@ -16,9 +23,19 @@ section{
 
 .hidden {
     opacity: 0;
-    transition: all 2s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 3s;
 }
 .show{
     opacity: 1;
-    transition: all 2s;
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: all 3s;
+}
+
+@media (prefers-reduce-motion){
+    .hidden{
+        transition: none;
+    }
 }
