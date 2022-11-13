@@ -1,0 +1,54 @@
+#summery{
+    font-size: x-large;
+}
+#summery1{
+    font-size: larger;
+}
+#summery2{
+    font-size: large;
+}
+details > summary {
+    list-style-type: '▶️';
+}
+details[open] > summary {
+    list-style-type: '🔽';
+}
+#one {
+    margin-left: 1em;
+	padding-left: 0;
+    /* background: #9fff64;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    margin-bottom: .5rem; */
+}
+#two{
+    margin-left: 2em;
+	padding-left: 0;
+}
+#three{
+    margin-left: 3em;
+	padding-left: 0;
+}
+#all{
+    display: grid;
+    place-items: center;
+    
+}    
+.box{
+    width: 98.5%;
+    background: #ffffff;
+    box-shadow: 0 .1rem 1rem -.2rem rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+.body{
+	background-image:url(cell-and-molecular-biology.png);
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+    background-size: cover;
+
+}
