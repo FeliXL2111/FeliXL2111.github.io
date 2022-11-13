@@ -1,10 +1,13 @@
 #summery{
-    font-size: x-large;
+    font-size: xx-large;
 }
 #summery1{
-    font-size: larger;
+    font-size: x-large;
 }
 #summery2{
+    font-size: larger;
+}
+#summery3{
     font-size: large;
 }
 details > summary {
@@ -35,7 +38,7 @@ details[open] > summary {
     
 }    
 .box{
-    width: 98.5%;
+    width: 98.9%;
     background: #ffffff;
     box-shadow: 0 .1rem 1rem -.2rem rgba(0, 0, 0, .4);
     border-radius: 5px;
