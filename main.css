@@ -1,6 +1,7 @@
 
 body {
     background-color: #070518;
+    background-image: linear-gradient(to bottom, rgba(117, 46, 210, 0.443) 0%, #070518 50%); 
     color: #ececec;
     font-family: 'Rancho', sans-serif;
     font-weight: bold;
@@ -50,9 +51,10 @@ section{
         width: 20rem;
         height: 15rem;
         background-color: #070518;
+        background-image: linear-gradient(45deg, #070518, rgba(116,46,210,.82));
         border-radius: 1rem;
         transition: all 0.3s;
-        box-shadow: 0 0.2rem 1rem -0.2rem rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0.2rem 0rem -0.2rem rgba(255, 255, 255, 0.4);
         font-size: 2.5rem;
         display: grid;
         place-items: center;
@@ -60,8 +62,8 @@ section{
         justify-content: center;
 }
 .card:hover{
-    transform: scale(0.98);
-    box-shadow:  0 0.3rem 1.5rem -.1rem rgba(255, 255, 255, 0.55);
+    transform: scale(0.95);
+    box-shadow:  0 0.1rem 1.5rem -.3rem rgba(255, 255, 255, 0.37);
 }
 
 .item-text-wrap {
